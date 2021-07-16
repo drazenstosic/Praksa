@@ -1,0 +1,14 @@
+{
+    "products": [{
+        "id": 1,
+        "typeId": 1,
+        "name": "Samsung galaxy s21",
+        "quantity": 4,
+        "price": 9999.99,
+        "description": "Some description "
+    }],
+    "types": [{
+        "id": 1,
+        "name": "Phone"
+    }]
+}

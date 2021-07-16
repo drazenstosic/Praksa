@@ -1,0 +1,43 @@
+
+
+@import "../base/typography.scss";
+
+
+
+.table {
+    font-family: Noto Sans KR;
+    border-collapse: collapse;   
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    
+    
+    td{
+      border: none;      
+      padding: 8px;
+      text-align: center;
+      
+    }  
+    
+    th{
+     
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #ebebeb;
+      color: #4f4f4f;
+      text-align: center;
+      }  
+    tr:hover{
+        
+        background-color: #f2f0f0;
+        
+    }
+    
+  }
+  
+  
+  
+
+  
+  

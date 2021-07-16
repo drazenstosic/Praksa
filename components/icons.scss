@@ -1,0 +1,42 @@
+.icon{
+
+    transition: all 250ms ease-in-out;
+    cursor:pointer;
+
+
+    &--lg{
+        width:60px; 
+        height:60px;
+    }
+
+
+    &--add{
+
+        content:url(../../assets/icons/Add.svg);
+        &:hover { 
+        transform: scale(1.2);
+        
+        }
+    }
+
+    &--delete{
+
+        content:url(../../assets/icons/Delete.svg);
+        &:hover {        
+            
+            transform: scale(1.4);
+          }
+    }
+    
+    &--edit{
+
+        content:url(../../assets/icons/Edit.svg);
+        &:hover {                    
+            transform: scale(1.2);
+          }
+    }
+    &--search{
+        content:url(../../assets/icons/SortDesc.svg);
+    }
+
+}

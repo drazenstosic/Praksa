@@ -1,0 +1,39 @@
+.input{
+    display:flex;
+
+    &__search{
+        
+        padding-left:50px;        
+        text-align: center;   
+        background-color:#f7f5f5;
+        border: none; 
+        padding:0.5rem;
+                
+         }
+         
+         &--searchIcon{
+            margin-left: 16px;
+             content:url(../../assets/icons/Search.svg);
+            
+         }
+
+    &--base{             
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;          
+          }
+    &--text{
+        color:green;
+    }
+    }
+
+         
+         
+     
+     
+
+
