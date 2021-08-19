@@ -1,0 +1,17 @@
+.page {
+  &__header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content {
+    padding: 24px;
+  }
+
+  &__headline {
+    padding-left: 60px;
+    font-family: Montserrat;
+    font-size: 17px;
+  }
+}
