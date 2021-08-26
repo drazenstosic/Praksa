@@ -1,0 +1,33 @@
+.dropdown {
+  display: inline-block;
+  padding-left: 20px;
+  font-family: Montserrat;
+  &__button {
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+
+  &__content {
+    min-width: 160px;
+    display: inline-block;
+    a {
+      background-color: #faf9f7;
+      color: black;
+      padding: 8px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    a:hover {
+      background-color: #ebebeb;
+      border-radius: 14px;
+      font-weight: bold;
+    }
+  }
+}
