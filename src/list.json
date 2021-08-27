@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "typeId": "1",
+      "name": "Iphone",
+      "quantity": 25,
+      "price": 900,
+      "description": "Some description..."
+    },
+    {
+      "id": 5,
+      "typeId": "1",
+      "name": "Motorola",
+      "quantity": 11,
+      "price": 255,
+      "description": "Some description..."
+    },
+    {
+      "id": 7,
+      "typeId": "1",
+      "name": "Huawei",
+      "quantity": 22,
+      "price": 445,
+      "description": "Some description..."
+    },
+    {
+      "id": 16,
+      "typeId": "3",
+      "name": "Canon ",
+      "quantity": 8,
+      "price": 4100,
+      "description": "Some description..."
+    },
+    {
+      "id": 73,
+      "typeId": "1",
+      "name": "Jeftini mobitel",
+      "quantity": 14,
+      "price": 90,
+      "description": "Jeftini mobitel"
+    },
+    {
+      "id": 44,
+      "typeId": "3",
+      "name": "Skupa kamera",
+      "quantity": 11,
+      "price": 4700,
+      "description": "Ovo je dobra kamera"
+    },
+    {
+      "id": 42,
+      "typeId": "1",
+      "name": "El-G",
+      "quantity": 18,
+      "price": 270,
+      "description": "Some description..."
+    },
+    {
+      "id": 74,
+      "typeId": "1",
+      "name": "Xiaomi",
+      "quantity": 10,
+      "price": 300,
+      "description": "Some description..."
+    },
+    {
+      "id": 67,
+      "typeId": "2",
+      "name": "Panasonic",
+      "quantity": 4,
+      "price": 4175,
+      "description": "Panasonic frizider"
+    },
+    {
+      "id": 64,
+      "typeId": "1",
+      "name": "Sony Ericsson",
+      "quantity": 10,
+      "price": 15,
+      "description": "Some description..."
+    }
+  ],
+  "types": [
+    {
+      "id": "1",
+      "name": "Phone"
+    },
+    {
+      "id": "2",
+      "name": "Fridge"
+    },
+    {
+      "id": "3",
+      "name": "Camera"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+
+  &__search {
+    text-align: left;
+    background-color: #f5f5f5;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  &--searchIcon {
+    margin-left: 16px;
+    content: url(../../assets/icons/Search.svg);
+  }
+
+  &__warning {
+    color: #990e05;
+    display: flex;
+    align-items: center;
+    font-family: Noto Sans KR;
+    padding-left: 6px;
+    padding-top: 6px;
+  }
+
+  &--base {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  &--text {
+    color: green;
+  }
+}
